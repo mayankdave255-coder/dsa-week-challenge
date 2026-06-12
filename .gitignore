@@ -1,0 +1,2 @@
+"*.exe"           # ignore compiled files
+"*.class" 
