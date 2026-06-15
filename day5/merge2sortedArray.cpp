@@ -4,7 +4,7 @@ int main(){
     int arr1[]={1,2,3},arr2[]={4,5,6};
     int arr[6];
     int i=0,j=0,k=0;
-    while(i<3 and j<3){
+    while(i<3 and j<3){//if it fails then that means one of the array is exhausted if one array isempty the other can be pushed backed
         if(arr1[j]<arr2[k]){
             arr[i]=arr1[j];
             i++;
